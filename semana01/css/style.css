@@ -1,0 +1,7 @@
+body{
+    font-family: sans-serif, monospace;
+}
+
+h1, h3 {
+    background-color: rgba(244, 165, 96, 0.5);
+}
