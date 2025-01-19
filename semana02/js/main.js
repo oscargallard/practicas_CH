@@ -58,3 +58,19 @@ console.log("Bienvenido!!!"); */
     }
     console.log(i);
 } */
+
+// Validación de usuarios
+const usuarios = [
+    {nombre: "Ana", edad: 20, aceptoTermino: false},
+    {nombre: "Luis", edad: 17, aceptoTermino: true},
+    {nombre: "Carlos", edad: 18, aceptoTermino: true},
+    {nombre: "Maria", edad: 15, aceptoTermino: true},
+    {nombre: "Bianca", edad:34, aceptoTermino: true}
+];
+//console.table(usuarios);
+//console.log(usuarios[1].nombre, usuarios[1].edad);
+for (let index = 0; index < usuarios.length; index++) {
+    if (usuarios[index].edad >= 18 && usuarios[index].aceptoTermino) {
+        console.log(usuarios[index].nombre);
+    }    
+}
