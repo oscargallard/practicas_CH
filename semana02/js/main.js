@@ -59,7 +59,7 @@ console.log("Bienvenido!!!"); */
     console.log(i);
 } */
 
-// Validación de usuarios
+/* // Validación de usuarios
 const usuarios = [
     {nombre: "Ana", edad: 20, aceptoTermino: false},
     {nombre: "Luis", edad: 17, aceptoTermino: true},
@@ -68,9 +68,48 @@ const usuarios = [
     {nombre: "Bianca", edad:34, aceptoTermino: true}
 ];
 //console.table(usuarios);
+//console.log(`Tipo de dato: ${typeof usuarios}`);
 //console.log(usuarios[1].nombre, usuarios[1].edad);
 for (let index = 0; index < usuarios.length; index++) {
     if (usuarios[index].edad >= 18 && usuarios[index].aceptoTermino) {
         console.log(usuarios[index].nombre);
     }    
-}
+} */
+
+// Condicones Basicas
+/* let edad = 17;
+
+if (edad >= 18) {
+  console.log("✔️Eres mayor de edad");
+} else {
+  console.log("❌Eres menor de edad");
+} */
+
+// Condiciones Anidadas
+/* let edad = null;
+let nombre = undefined;
+
+if (edad !== null && edad !== undefined) {
+    if (edad > 0 && edad <= 120) {
+        console.log(`Tienes ${edad} ${edad === 1 ? "año" : "años"}`);
+    } else {
+        console.log("⚠️La edad debe estar entre 1 y 120 años");
+    }
+} else {
+    //Considera valores "falsy" como 0, '', false, null y undefined
+    if (nombre) {
+        console.log(`Bienvenido, ${nombre} 😎`);
+    } else {
+        console.log("⚠️Información incompleta");
+    }
+} */
+
+//Operador OR Lógico
+let valor1 = 0;
+let resultadoOR = valor1 || "Valor predeterminado";
+console.log("Mensaje OR:", resultadoOR); // "Valor predeterminado"
+
+//Operador Nullish Coalescing
+let valor2 = 0;
+let resultadoNullish = valor2 ?? "Valor predeterminado";
+console.log("Nullish Coalescing:", resultadoNullish); // 0
