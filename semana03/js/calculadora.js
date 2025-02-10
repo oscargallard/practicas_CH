@@ -48,16 +48,16 @@ do {
 
         switch (menu) {
             case 1:
-                sumar(50, 30);
+                sumar(numero1, numero2);
                 break;        
             case 2:
-                restar(50, 30);
+                restar(numero1, numero2);
                 break;
             case 3:
-                multiplicar(10, 5);
+                multiplicar(numero1, numero2);
                 break;
             case 4:
-                dividir(25, 5);
+                dividir(numero1, numero2);
                 break;           
         } 
     } else {
